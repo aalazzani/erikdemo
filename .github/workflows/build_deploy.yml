@@ -1,5 +1,6 @@
 name: Build and Deploy Application
 on: [push]
+  branches: main
 jobs:
   Test-Workflow:
     runs-on: ubuntu-latest
